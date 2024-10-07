@@ -1,0 +1,47 @@
+/* Form Row */
+.form_row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    gap: 6px;
+}
+
+/* Input Fields */
+.input_field {
+    width: 48%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    outline: none;
+}
+
+.input_field_full {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    outline: none;
+}
+
+/* Register Button */
+.register_button {
+    width: 40%;
+    padding: 0.75rem;
+    background-color: #008cfa;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.register_button:hover {
+    background-color: #007ad3;
+}
+
+.text-start {
+    text-align: left !important;
+}

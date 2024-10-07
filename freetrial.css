@@ -1,0 +1,41 @@
+/* Free Trial Section */
+.free_trial_section {
+    padding: 3rem 1.5rem;
+    background-color: #fff;
+}
+
+.free_trial_section h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.free_trial_section p {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 2rem;
+}
+
+/* Form Container */
+.free_trial_form_container {
+    border: 1px solid #ccc;
+    padding: 2rem;
+    width: 60%;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.free_trial_form_container h3 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+@media (max-width: 768px) {
+    .free_trial_form_container {
+        width: 90%;
+
+    }
+
+
+}

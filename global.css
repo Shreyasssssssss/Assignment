@@ -1,0 +1,13 @@
+/* Global css */
+body {
+    padding: 0 80px;
+    overflow-x: hidden;
+    margin: 0;
+}
+
+.divider {
+    margin: 0 -90px;
+    padding: 0;
+    background: #F2F2F2;
+    height: 80px;
+}

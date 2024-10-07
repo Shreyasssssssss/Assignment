@@ -1,0 +1,169 @@
+/* Footer Section */
+.custom_footer {
+    background-color: #333;
+    color: #fff;
+    padding: 2rem 1.5rem;
+    font-family: Arial, sans-serif;
+    margin: 0 -90px;
+}
+
+.footer_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #444;
+}
+
+.footer_logo img {
+    width: 50px;
+    height: auto;
+}
+
+.footer_nav {
+    display: flex;
+    gap: 3rem;
+}
+
+.footer_column h4 {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.footer_column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer_column ul li {
+    margin-bottom: 0.5rem;
+}
+
+.footer_column ul li a {
+    color: #bbb;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.footer_column ul li a:hover {
+    color: #fff;
+}
+
+/* Footer Action Buttons */
+.footer_actions {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.register_button,
+.login_button {
+    width: 100px;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.register_button {
+    background-color: #008cfa;
+    color: #fff;
+    border: none;
+}
+
+.login_button {
+    background-color: #fff;
+    color: #008cfa;
+    border: 1px solid #008cfa;
+}
+
+.register_button:hover {
+    background-color: #007ad3;
+}
+
+.login_button:hover {
+    background-color: #e6f2ff;
+}
+
+/* Footer Bottom Section */
+.footer_bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+    margin-top: 2rem;
+}
+
+.footer_copyright {
+    font-size: 0.9rem;
+    color: #bbb;
+}
+
+.footer_social {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.footer_social span {
+    font-size: 0.9rem;
+    margin-right: 0.5rem;
+}
+
+.footer_social a img {
+    width: 24px;
+    height: 24px;
+    filter: brightness(0) invert(1);
+}
+
+.footer_social a img:hover {
+    filter: brightness(0.8);
+}
+
+@media (max-width: 768px) {
+
+    /* Stack footer top section vertically */
+    .footer_top {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    /* Center footer logo */
+    .footer_logo img {
+        width: 40px;
+        margin-bottom: 1rem;
+    }
+
+    /* Stack footer navigation and columns vertically */
+    .footer_nav {
+        flex-direction: column;
+        gap: 1rem;
+        text-align: center;
+    }
+
+    .footer_column {
+        margin-bottom: 1.5rem;
+    }
+
+    /* Footer action buttons - center align */
+    .footer_actions {
+        align-items: center;
+        margin-bottom: 1.5rem;
+    }
+
+    /* Adjust bottom section layout */
+    .footer_bottom {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    /* Reduce padding and margin for smaller screens */
+    .custom_footer {
+        padding: 1.5rem 1rem;
+        margin: 0 -90px;
+    }
+}

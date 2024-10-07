@@ -1,0 +1,80 @@
+/* Snap Section CSS */
+.snap_section_intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3rem;
+    background-color: #fff;
+}
+
+.snap_section_item {
+    flex: 1;
+    padding-right: 2rem;
+}
+
+.snap_section_item h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.snap_section_item_img img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Grid Layout for Cards */
+.snap_section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    margin-top: 2rem;
+    background-color: #fff;
+
+}
+
+.snap_section_container {
+    background-color: #fff;
+    margin-bottom: 2rem;
+}
+
+/* Card Styling */
+.snap_section_item_card {
+    padding: 0.7rem;
+}
+
+.snap_section_item_card h3 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.snap_section_item_card p {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+.snap_section_item_card button {
+    padding: 10px 20px;
+}
+
+/* Add padding and margins */
+.snap_section_item_card h3,
+.snap_section_item_card p,
+.snap_section_item_card button {
+    margin-left: 0;
+}
+
+@media (max-width: 768px) {
+    .snap_section {
+        grid-template-columns: 1fr;
+    }
+
+    .snap_section_item {
+        padding-right: 0;
+    }
+}

@@ -1,0 +1,80 @@
+/* Social Section */
+.social_section {
+    padding: 4rem 2rem;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+
+}
+
+.social_section h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.social_description {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 3rem;
+}
+
+/* Social Gallery */
+.social_gallery {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+/* Gallery Content - 4 cards */
+.social_gallery_content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.social_card {
+    /* padding: 1.5rem; */
+}
+
+.social_card h4 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    text-align: left;
+}
+
+.social_card p {
+    font-size: 1rem;
+    color: #666;
+    text-align: left;
+
+}
+
+/* Gallery Banner */
+.social_gallery_banner {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social_gallery_banner img {
+    width: 100%;
+    height: auto;
+}
+
+/* Media Query for Social Gallery on Small Screens */
+@media (max-width: 768px) {
+    .social_gallery {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+
+    .social_gallery_content,
+    .social_gallery_banner {
+        width: 100%;
+    }
+}
